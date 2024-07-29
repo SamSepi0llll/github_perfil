@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrincipal: #2c3e50;
+    --corSecundaria: #eee;
+}
+
+.container-input{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: var(--corPrincipal);
+    text-align: center;
+
+    .title{
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .input{
+        display: flex;
+        max-width: 300px;
+        padding: 8px;
+        border: none;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+}
